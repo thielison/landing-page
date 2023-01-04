@@ -92,3 +92,41 @@ h1 {
   padding: 10px 40px;
   margin-top: 10px;
 }
+
+.section .container {
+  display: flex;
+  min-height: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section .container .boxes {
+  display: flex;
+  gap: 50px;
+}
+
+.section .container .boxes .item .text {
+  margin-top: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.section .container .item .box {
+  border: 6px solid #3882f6;
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin: 40px 0;
+}
+
+div .text {
+  line-height: 1.5rem;
+  font-size: 20px;
+  color: #6D747D;
+}
