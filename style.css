@@ -188,3 +188,13 @@ h2 {
   border-radius: 0.7rem;
   padding: 6px 38px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1F2937;
+  color: #fff;
+  font-size: 20px;
+}
